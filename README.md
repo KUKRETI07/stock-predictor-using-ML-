@@ -6,17 +6,17 @@ The model analyzes technical indicators and volume patterns to predict future cl
 providing a 10-day forecast to help investors make more informed decisions.
 
 # Problem Statement
-1. Predicting cryptocurrency prices is challenging due to:
+Predicting cryptocurrency prices is challenging due to:
 
-2. Extreme market volatility
+* Extreme market volatility
 
-3. Complex non-linear patterns
+* Complex non-linear patterns
 
-4. Multiple influencing factors (market sentiment, news, regulations)
+* Multiple influencing factors (market sentiment, news, regulations)
 
-5. Lack of fundamental valuation metrics
+* Lack of fundamental valuation metrics
 
-6. Traditional technical analysis methods often fail to capture these complexities, creating a need for more sophisticated forecasting approaches.
+* Traditional technical analysis methods often fail to capture these complexities, creating a need for more sophisticated forecasting approaches.
 
 # Solution
  I developed a deep learning solution that:
@@ -30,16 +30,16 @@ providing a 10-day forecast to help investors make more informed decisions.
 4. Generates 10-day price forecasts
 
 # Key Features Used
-1. Closing price (primary target)
+* Closing price (primary target)
 
-2. Trading volume
+* Trading volume
 
-3. 50-day moving average
+* 50-day moving average
 
-4. 200-day moving average
+* 200-day moving average
 
 # Technical Implementation
-graph LR
+
 A[Yahoo Finance API] --> B[Raw Data]
 B --> C[Preprocessing]
 C --> D[Feature Engineering]
@@ -78,7 +78,7 @@ model.add(Dense(1))
 # Model Performance
 The model achieved strong predictive accuracy:
 
-Metric	Value
-MAE	0.0506
-R²	0.9402
-RMSE	0.0751
+Metric	Value 
+* MAE	0.0506
+* R²	0.9402
+* RMSE	0.0751
