@@ -1,6 +1,6 @@
 ### Stock Predictor: Bitcoin Price Forecasting
 
-![Prediction Chart](Screenshot(24).png)
+![Prediction Chart](https://github.com/KUKRETI07/stock-predictor-using-ML-/blob/21c34425a59b26523d76487a0033387583314c69/Screenshot%20(24).png)
 
 # Overview
 This project implements an LSTM-based deep learning model to forecast Bitcoin prices using historical market data.
